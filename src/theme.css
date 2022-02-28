@@ -1,0 +1,71 @@
+::-webkit-input-placeholder {
+    /* Edge */
+    color: #667085 !important;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer */
+    color: #667085 !important;
+}
+
+::placeholder {
+    color: #667085 !important;
+}
+
+Input,
+TextArea,
+.ant-select-selector {
+    /* border-color: #D0D5DD !important; */
+    border-radius: 8px !important;
+}
+
+.ant-form-item-label label {
+
+    font-weight: 500 !important;
+    color: #344054 !important;
+
+}
+
+.ant-collapse {
+    border: none;
+}
+
+.ant-collapse,
+.ant-collapse>.ant-collapse-item:last-child,
+.ant-collapse>.ant-collapse-item:last-child>.ant-collapse-header {
+    background-color: white;
+    border-radius: 8px !important;
+}
+
+.ant-collapse-content {
+    border: none;
+    border-radius: 0 0 8px 8px !important;
+}
+
+
+.ant-collapse-item {
+    border: 1px solid #d9d9d9;
+
+}
+
+.ant-collapse-item.ant-collapse-item-active {
+    border-color: #004199 !important;
+}
+
+.ant-btn-lg {
+    height: auto !important;
+}
+
+
+
+.ant-radio-button-wrapper:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+.ant-radio-button-wrapper:last-child {
+    border-radius: 0 8px 8px 0;
+}
+
+.ant-radio-button-wrapper {
+    padding: 0 12%;
+}
